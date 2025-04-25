@@ -1,6 +1,6 @@
 ## memo
 
-瞬間的にIAMユーザーを大量に作る場合などの利用を想定
+Terraformで瞬間的にIAMユーザーを大量に作る
 
  - パスワードは8文字（password_lengthで変更可）
  - パスワードはoutputとtfstateに出力されるので注意（tfstateだと & は\u0026になるもよう）
